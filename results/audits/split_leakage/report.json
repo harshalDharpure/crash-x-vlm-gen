@@ -1,0 +1,4520 @@
+{
+  "method": {
+    "samples_relative_positions": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "hash": "64-bit dHash",
+    "candidate_threshold": 12.0,
+    "interpretation": "Candidates require manual visual review; absence is not proof that source footage is independent."
+  },
+  "counts": {
+    "train": 1198,
+    "val": 150,
+    "test": 150
+  },
+  "exact_overlap": {
+    "train_val": {
+      "video_id": 0,
+      "video_path": 0
+    },
+    "train_test": {
+      "video_id": 0,
+      "video_path": 0
+    },
+    "val_test": {
+      "video_id": 0,
+      "video_path": 0
+    }
+  },
+  "cross_split_exact_explanation_duplicates": 0,
+  "visual_hashes_computed": {
+    "train": 1198,
+    "val": 150,
+    "test": 150
+  },
+  "unreadable_videos": [],
+  "visual_near_duplicate_candidates": [
+    {
+      "left_split": "train",
+      "left_video_id": "001117",
+      "right_split": "val",
+      "right_video_id": "000301",
+      "mean_dhash_distance": 2.6666666666666665
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001437",
+      "right_split": "val",
+      "right_video_id": "000243",
+      "mean_dhash_distance": 5.666666666666667
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 5.666666666666667
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 6.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 6.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 6.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 6.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 6.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001397",
+      "right_split": "test",
+      "right_video_id": "000254",
+      "mean_dhash_distance": 6.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 7.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 7.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 7.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 7.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 7.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 7.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 7.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 7.333333333333333
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 7.666666666666667
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 7.666666666666667
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000196",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 7.666666666666667
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 8.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000547",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 8.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001254",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000573",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "001236",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000078",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 8.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001334",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000480",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 9.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000420",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000628",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000303",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001254",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000925",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000428",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001087",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 9.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000200",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000200",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001445",
+      "right_split": "val",
+      "right_video_id": "000246",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000426",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001124",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000772",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 9.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001453",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001105",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000303",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001448",
+      "right_split": "val",
+      "right_video_id": "000100",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000867",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001478",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001478",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000677",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000078",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000184",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001014",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000370",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000388",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000388",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000269",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000200",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000009",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000537",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000054",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000730",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000448",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000480",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000298",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001124",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000859",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "001004",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000956",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001014",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 10.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000420",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001453",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "000100",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000002",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000002",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001051",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001225",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001478",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000288",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000401",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "val",
+      "right_video_id": "000100",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "000327",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000140",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "001177",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000002",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000298",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000677",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000428",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001272",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "test",
+      "right_video_id": "000723",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001018",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000184",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000313",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000196",
+      "right_split": "test",
+      "right_video_id": "001031",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001148",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 10.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000233",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000547",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000256",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001085",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001124",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001254",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "001108",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000859",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001323",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000420",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000306",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000628",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000628",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000952",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001478",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000447",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000370",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "001442",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000388",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000428",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "001177",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000956",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001087",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000879",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "val",
+      "right_video_id": "001236",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000599",
+      "right_split": "val",
+      "right_video_id": "000290",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000150",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000009",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000971",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001105",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001334",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000443",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000730",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001199",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000401",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000298",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000111",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000867",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "val",
+      "right_video_id": "001236",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000550",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "001148",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000165",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000216",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000306",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001010",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000506",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001222",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001334",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000443",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000303",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000428",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "001005",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001199",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001167",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001254",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000078",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000357",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000313",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000313",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.333333333333334
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "val",
+      "right_video_id": "000908",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000815",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000506",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000418",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000183",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001225",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001167",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001167",
+      "right_split": "val",
+      "right_video_id": "001343",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "val",
+      "right_video_id": "000169",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000298",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000370",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "001034",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "001279",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000867",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000357",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001272",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001323",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "val",
+      "right_video_id": "001343",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "val",
+      "right_video_id": "001183",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "val",
+      "right_video_id": "000409",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001109",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000920",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "001442",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000200",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "001005",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "001442",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000009",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000481",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000354",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000537",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001334",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000952",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001389",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001051",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000303",
+      "right_split": "test",
+      "right_video_id": "001005",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000565",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001225",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000288",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000978",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001167",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000448",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001164",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001378",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000677",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000677",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000567",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000148",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "001005",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001193",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "000706",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000393",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000920",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000299",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000551",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "001438",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000165",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000184",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001178",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000956",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000055",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000313",
+      "right_split": "test",
+      "right_video_id": "000723",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000849",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "001321",
+      "right_split": "test",
+      "right_video_id": "000058",
+      "mean_dhash_distance": 11.666666666666666
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000140",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "val",
+      "right_video_id": "000100",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "val",
+      "right_video_id": "000111",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000009",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000009",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000481",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000971",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "000410",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "val",
+      "right_video_id": "001148",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000628",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001010",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000537",
+      "right_split": "val",
+      "right_video_id": "000879",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000537",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000013",
+      "right_split": "val",
+      "right_video_id": "000849",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "val",
+      "right_video_id": "001014",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "val",
+      "right_video_id": "000100",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000054",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001421",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000961",
+      "right_split": "val",
+      "right_video_id": "001034",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000314",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "val",
+      "right_video_id": "000201",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001164",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001378",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "val",
+      "right_video_id": "001236",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000480",
+      "right_split": "val",
+      "right_video_id": "000021",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000677",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000561",
+      "right_split": "val",
+      "right_video_id": "000196",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001272",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001272",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001193",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000388",
+      "right_split": "val",
+      "right_video_id": "000169",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "val",
+      "right_video_id": "001087",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000441",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000646",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000560",
+      "right_split": "val",
+      "right_video_id": "000313",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000184",
+      "right_split": "val",
+      "right_video_id": "001321",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000956",
+      "right_split": "val",
+      "right_video_id": "000215",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000317",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000598",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001453",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001299",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000519",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000106",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "001004",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001009",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001392",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001105",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001401",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001222",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001317",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000534",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000952",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001389",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001389",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000547",
+      "right_split": "test",
+      "right_video_id": "000723",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000303",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001365",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "001339",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001021",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "001004",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000137",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001225",
+      "right_split": "test",
+      "right_video_id": "001004",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001448",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001457",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001167",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001039",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000069",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001376",
+      "right_split": "test",
+      "right_video_id": "000316",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000172",
+      "right_split": "test",
+      "right_video_id": "000589",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000901",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "test",
+      "right_video_id": "000723",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000845",
+      "right_split": "test",
+      "right_video_id": "001005",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000532",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001035",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "001004",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000242",
+      "right_split": "test",
+      "right_video_id": "001177",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000094",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000904",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000139",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000139",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000859",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000859",
+      "right_split": "test",
+      "right_video_id": "000657",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000772",
+      "right_split": "test",
+      "right_video_id": "000596",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000178",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001193",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001193",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000896",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000526",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000459",
+      "right_split": "test",
+      "right_video_id": "000830",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001264",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001018",
+      "right_split": "test",
+      "right_video_id": "000687",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000394",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000660",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "001239",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "train",
+      "left_video_id": "000956",
+      "right_split": "test",
+      "right_video_id": "000006",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000849",
+      "right_split": "test",
+      "right_video_id": "000419",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000849",
+      "right_split": "test",
+      "right_video_id": "000127",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000201",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000201",
+      "right_split": "test",
+      "right_video_id": "001355",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000635",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000215",
+      "right_split": "test",
+      "right_video_id": "000147",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000923",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000940",
+      "mean_dhash_distance": 12.0
+    },
+    {
+      "left_split": "val",
+      "left_video_id": "000021",
+      "right_split": "test",
+      "right_video_id": "000428",
+      "mean_dhash_distance": 12.0
+    }
+  ]
+}

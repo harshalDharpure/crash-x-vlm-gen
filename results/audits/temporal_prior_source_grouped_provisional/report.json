@@ -1,0 +1,78 @@
+{
+  "selection_split": "crashx/data/splits_source_grouped_provisional/train.jsonl",
+  "evaluation_splits": {
+    "validation": "crashx/data/splits_source_grouped_provisional/val.jsonl",
+    "test": "crashx/data/splits_source_grouped_provisional/test.jsonl"
+  },
+  "n": {
+    "train": 1202,
+    "validation": 147,
+    "test": 149
+  },
+  "controls": {
+    "Train-selected constant": {
+      "window": [
+        2.0,
+        4.0
+      ],
+      "train": {
+        "tIoU": 0.4766777592900721,
+        "THR@0.25": 0.8635607321131448,
+        "THR@0.50": 0.6880199667221298
+      },
+      "validation": {
+        "tIoU": 0.5294784580498866,
+        "THR@0.25": 0.891156462585034,
+        "THR@0.50": 0.7142857142857143
+      },
+      "test": {
+        "tIoU": 0.5190156599552572,
+        "THR@0.25": 0.87248322147651,
+        "THR@0.50": 0.7718120805369127
+      }
+    },
+    "Train mean window": {
+      "window": [
+        2.08153078202995,
+        3.51414309484193
+      ],
+      "train": {
+        "tIoU": 0.3813400578774413,
+        "THR@0.25": 0.8078202995008319,
+        "THR@0.50": 0.3369384359400998
+      },
+      "validation": {
+        "tIoU": 0.4148617489239854,
+        "THR@0.25": 0.8299319727891157,
+        "THR@0.50": 0.3877551020408163
+      },
+      "test": {
+        "tIoU": 0.40545645384731976,
+        "THR@0.25": 0.8322147651006712,
+        "THR@0.50": 0.3825503355704698
+      }
+    },
+    "Train median window": {
+      "window": [
+        2.0,
+        4.0
+      ],
+      "train": {
+        "tIoU": 0.4766777592900721,
+        "THR@0.25": 0.8635607321131448,
+        "THR@0.50": 0.6880199667221298
+      },
+      "validation": {
+        "tIoU": 0.5294784580498866,
+        "THR@0.25": 0.891156462585034,
+        "THR@0.50": 0.7142857142857143
+      },
+      "test": {
+        "tIoU": 0.5190156599552572,
+        "THR@0.25": 0.87248322147651,
+        "THR@0.50": 0.7718120805369127
+      }
+    }
+  },
+  "interpretation": "The strongest train-selected constant-window control reaches test tIoU=0.5190. Report model temporal localization only alongside this control."
+}

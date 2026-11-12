@@ -16,6 +16,7 @@ video1500/
 *.mp4
 
 # Model weights (train locally)
+outputs/
 outputs/crashlogic_7b_lora/adapter_model.safetensors
 outputs/crashlogic_7b_lora/checkpoint-*/
 outputs/crashlogic_7b_lora/training_args.bin
@@ -29,3 +30,14 @@ results/logs/
 *.pid
 .DS_Store
 Thumbs.db
+
+# Architecture experiment weights and runtime logs
+outputs/architecture_v4/
+results/architecture_v4/smoke*/
+results/architecture_v4/*.log
+results/architecture_v4/*.lock
+results/**/adapter_model.safetensors
+results/**/optimizer.pt
+results/**/scheduler.pt
+results/**/rng_state.pth
+results/**/trainer_state.json

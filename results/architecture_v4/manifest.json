@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "name": "visual16-s42",
+      "frames": 16,
+      "side": 336,
+      "visual": true,
+      "seed": 42
+    },
+    {
+      "name": "visual16-s123",
+      "frames": 16,
+      "side": 336,
+      "visual": true,
+      "seed": 123
+    },
+    {
+      "name": "visual16-s2026",
+      "frames": 16,
+      "side": 336,
+      "visual": true,
+      "seed": 2026
+    },
+    {
+      "name": "language16-s42",
+      "frames": 16,
+      "side": 336,
+      "visual": false,
+      "seed": 42
+    },
+    {
+      "name": "language8-s42",
+      "frames": 8,
+      "side": 224,
+      "visual": false,
+      "seed": 42
+    }
+  ],
+  "epochs": 3,
+  "lr": 5e-05,
+  "rank": 32,
+  "selection": "minimum validation loss; fixed configurations; no test tuning",
+  "gpu": "1",
+  "splits": {
+    "train": "0b30726b3a00537cb4cfe09dcc1b4eb93bc42ce720a753c4e5a768fbbf4426e3",
+    "val": "4942f45b57763fd3e5f02d7c3d8f02dcc5f8caeeefd7df1a64e0b9c263fdb463",
+    "test": "880dff15127ecef7ab8083925796cbb686f1763da344938e621e5c38e6a7aec8"
+  }
+}

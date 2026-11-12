@@ -100,13 +100,25 @@ def build_collate_fn(processor, num_frames: int = 8, max_side: int = 224, max_se
             )
 
         if max_seq_len > 0 and batch["input_ids"].shape[-1] > max_seq_len:
-            batch["input_ids"] = batch["input_ids"][:, :max_seq_len]
-            if "attention_mask" in batch:
-                batch["attention_mask"] = batch["attention_mask"][:, :max_seq_len]
+            raise ValueError(
+                f"Sequence has {batch['input_ids'].shape[-1]} tokens, exceeding {max_seq_len}; "
+                "increase --max-seq-len rather than truncating visual or answer tokens."
+            )
 
         labels = batch["input_ids"].clone()
-        if processor.tokenizer.pad_token_id is not None:
-            labels[labels == processor.tokenizer.pad_token_id] = -100
+        # Supervise only assistant content, retaining the assistant EOS token.
+        marker = processor.tokenizer.encode("<|im_start|>assistant\n", add_special_tokens=False)
+        for i in range(labels.shape[0]):
+            ids = batch["input_ids"][i].tolist()
+            starts = [j + len(marker) for j in range(len(ids) - len(marker) + 1)
+                      if ids[j:j + len(marker)] == marker]
+            if len(starts) != 1:
+                raise ValueError("Expected exactly one assistant boundary in SFT example")
+            labels[i, :starts[0]] = -100
+        if "attention_mask" in batch:
+            labels[batch["attention_mask"] == 0] = -100
+        if not (labels != -100).any(dim=1).all():
+            raise ValueError("Example has no supervised answer tokens")
         batch["labels"] = labels
         return batch
 
@@ -140,6 +152,14 @@ def build_training_args(
         "lr_scheduler_type": "cosine",
         "logging_steps": 10,
         "save_strategy": "epoch",
+        "save_total_limit": 2,
+        "load_best_model_at_end": has_eval,
+        "metric_for_best_model": "eval_loss",
+        "greater_is_better": False,
+        "prediction_loss_only": True,
+        "seed": args.seed,
+        "data_seed": args.seed,
+        "max_steps": args.max_steps,
         "bf16": torch.cuda.is_available(),
         "remove_unused_columns": False,
         "report_to": "none",
@@ -199,13 +219,25 @@ def train(args: argparse.Namespace) -> None:
         gradient_checkpointing_kwargs={"use_reentrant": False},
     )
 
+    # Full names prevent suffix matches from silently adapting vision MLPs.
+    targets = [name for name, module in model.named_modules()
+               if ".visual." not in name and name.rsplit(".", 1)[-1] in LORA_TARGETS
+               and isinstance(module, torch.nn.Linear)]
+    if not targets:
+        raise RuntimeError("Could not locate language adapter targets")
+    language_target_count = len(targets)
+    if args.visual_lora:
+        targets.extend([name for name, module in model.named_modules()
+                        if ".visual.merger.mlp." in name and isinstance(module, torch.nn.Linear)])
+        if len(targets) == language_target_count:
+            raise RuntimeError("Could not locate visual merger linear layers")
     lora_config = LoraConfig(
         r=args.lora_r,
         lora_alpha=args.lora_alpha,
         lora_dropout=args.lora_dropout,
         bias="none",
         task_type="CAUSAL_LM",
-        target_modules=LORA_TARGETS,
+        target_modules=targets,
     )
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
@@ -223,30 +255,17 @@ def train(args: argparse.Namespace) -> None:
         output_dir,
         args,
         train_size=len(train_ds),
-        has_eval=False,  # skip per-epoch eval to reduce VRAM spikes
+        has_eval=eval_ds is not None,
     )
 
-    try:
-        from trl import SFTTrainer
-
-        logger.info("Using trl.SFTTrainer")
-        trainer = SFTTrainer(
-            model=model,
-            args=training_args,
-            train_dataset=train_ds,
-            eval_dataset=eval_ds,
-            data_collator=collate,
-            processing_class=processor.tokenizer,
-        )
-    except Exception as exc:  # noqa: BLE001
-        logger.warning("SFTTrainer unavailable (%s); using transformers.Trainer", exc)
-        trainer = Trainer(
-            model=model,
-            args=training_args,
-            train_dataset=train_ds,
-            eval_dataset=eval_ds,
-            data_collator=collate,
-        )
+    # Raw multimodal rows must reach our collator without TRL text preprocessing.
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_ds,
+        eval_dataset=eval_ds,
+        data_collator=collate,
+    )
 
     logger.info(
         "Starting QLoRA SFT: epochs=%s, train=%s, val=%s → %s",
@@ -257,6 +276,7 @@ def train(args: argparse.Namespace) -> None:
     )
     trainer.train()
     trainer.save_model(str(output_dir))
+    trainer.state.save_to_json(str(output_dir / "trainer_state.json"))
     processor.save_pretrained(str(output_dir))
     with (output_dir / "train_config.json").open("w", encoding="utf-8") as f:
         json.dump(vars(args), f, indent=2, default=str)
@@ -269,6 +289,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--train-jsonl", type=Path, required=True)
     p.add_argument("--val-jsonl", type=Path, default=None)
     p.add_argument("--output-dir", type=Path, default=Path("outputs/crashlogic_7b_lora"))
+    p.add_argument("--visual-lora", action="store_true", help="Adapt visual-to-language merger with LoRA")
+    p.add_argument("--max-steps", type=int, default=-1)
     p.add_argument("--epochs", type=int, default=5)
     p.add_argument("--batch-size", type=int, default=1)
     p.add_argument("--grad-accum", type=int, default=8)

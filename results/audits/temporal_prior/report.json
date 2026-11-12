@@ -1,0 +1,78 @@
+{
+  "selection_split": "crashx/data/splits/train.jsonl",
+  "evaluation_splits": {
+    "validation": "crashx/data/splits/val.jsonl",
+    "test": "crashx/data/splits/test.jsonl"
+  },
+  "n": {
+    "train": 1198,
+    "validation": 150,
+    "test": 150
+  },
+  "controls": {
+    "Train-selected constant": {
+      "window": [
+        2.0,
+        4.0
+      ],
+      "train": {
+        "tIoU": 0.47673900946021147,
+        "THR@0.25": 0.8631051752921536,
+        "THR@0.50": 0.6886477462437396
+      },
+      "validation": {
+        "tIoU": 0.5288888888888889,
+        "THR@0.25": 0.8933333333333333,
+        "THR@0.50": 0.7133333333333334
+      },
+      "test": {
+        "tIoU": 0.5177777777777778,
+        "THR@0.25": 0.8733333333333333,
+        "THR@0.50": 0.7666666666666667
+      }
+    },
+    "Train mean window": {
+      "window": [
+        2.0834724540901504,
+        3.5141903171953257
+      ],
+      "train": {
+        "tIoU": 0.38064652922328573,
+        "THR@0.25": 0.8071786310517529,
+        "THR@0.50": 0.337228714524207
+      },
+      "validation": {
+        "tIoU": 0.4157146748717358,
+        "THR@0.25": 0.8333333333333334,
+        "THR@0.50": 0.38666666666666666
+      },
+      "test": {
+        "tIoU": 0.40471614053497795,
+        "THR@0.25": 0.8333333333333334,
+        "THR@0.50": 0.38
+      }
+    },
+    "Train median window": {
+      "window": [
+        2.0,
+        4.0
+      ],
+      "train": {
+        "tIoU": 0.47673900946021147,
+        "THR@0.25": 0.8631051752921536,
+        "THR@0.50": 0.6886477462437396
+      },
+      "validation": {
+        "tIoU": 0.5288888888888889,
+        "THR@0.25": 0.8933333333333333,
+        "THR@0.50": 0.7133333333333334
+      },
+      "test": {
+        "tIoU": 0.5177777777777778,
+        "THR@0.25": 0.8733333333333333,
+        "THR@0.50": 0.7666666666666667
+      }
+    }
+  },
+  "interpretation": "The strongest train-selected constant-window control reaches test tIoU=0.5178. Report model temporal localization only alongside this control."
+}

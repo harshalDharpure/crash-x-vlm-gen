@@ -1,0 +1,24 @@
+{
+  "visual16-s42": {
+    "state": "failed",
+    "started": 1791608984.8656824,
+    "error": "Command '['/DATA/vaneet_2221cs15/vlm_new_gen/.venv/bin/python', '-m', 'crashx.run_architecture_suite', '--stage', 'score', '--destination', '/DATA/vaneet_2221cs15/vlm_new_gen/results/architecture_v4/test/visual16-s42_predictions.json']' returned non-zero exit status 1."
+  },
+  "visual16-s123": {
+    "state": "failed",
+    "started": 1791621348.9784765,
+    "error": "Command '['/DATA/vaneet_2221cs15/vlm_new_gen/.venv/bin/python', '-m', 'crashx.run_architecture_suite', '--stage', 'score', '--destination', '/DATA/vaneet_2221cs15/vlm_new_gen/results/architecture_v4/test/visual16-s123_predictions.json']' returned non-zero exit status 1."
+  },
+  "visual16-s2026": {
+    "state": "complete",
+    "started": 1791632052.7430575
+  },
+  "language16-s42": {
+    "state": "complete",
+    "started": 1791642642.4481142
+  },
+  "language8-s42": {
+    "state": "complete",
+    "started": 1791654974.5878377
+  }
+}

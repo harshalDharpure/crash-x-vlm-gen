@@ -1,0 +1,33 @@
+{
+  "name": "CrashX frozen-visual temporal grounding proof of concept v1",
+  "status": "specified_not_run",
+  "split_requirement": "Use only a frozen source-grouped split; the current provisional split is diagnostic only.",
+  "features": {
+    "backbone": "Qwen/Qwen2.5-VL-7B-Instruct vision encoder",
+    "frozen": true,
+    "quantization": "4-bit NF4",
+    "frames": 16,
+    "max_frame_side": 336,
+    "cache_dtype": "float16"
+  },
+  "objective": {
+    "target": "discrete start and end positions over 16 uniformly sampled frames",
+    "supervision": "train intervals only",
+    "selection": "validation mean tIoU only"
+  },
+  "pre_registered_methods": [
+    "train-selected constant time window",
+    "train mean and median time windows",
+    "position-only temporal head",
+    "frozen-random-feature temporal head",
+    "shuffled-frame-feature temporal head",
+    "frozen Qwen visual-feature temporal head"
+  ],
+  "counterfactual_tests": {
+    "temporal_circular_shift": "Shift visual features by a fixed number of frame positions and test whether predicted event positions shift consistently.",
+    "event_frame_removal": "Replace predicted/annotated event-region features with context features and measure localization degradation.",
+    "non_event_frame_removal": "Apply an equal-size control removal outside the event region."
+  },
+  "test_metrics": ["mean tIoU", "THR@0.25", "THR@0.50", "paired video-bootstrap CIs", "shift consistency", "event-vs-context removal delta"],
+  "claim_gate": "Claim visual temporal grounding only if the visual head beats all position/prior controls on the frozen test split and passes both counterfactual sensitivity tests."
+}

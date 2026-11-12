@@ -1,0 +1,16 @@
+{
+  "status": "candidate_quarantined_diagnostic_split",
+  "input_dir": "crashx/data/splits_source_grouped_provisional",
+  "review_queue": "results/audits/split_leakage/review_queue.json",
+  "counts": {
+    "train": 1202,
+    "val": 122,
+    "test": 119
+  },
+  "removed_evaluation_candidates": {
+    "train": 0,
+    "val": 25,
+    "test": 30
+  },
+  "warning": "Remaining clips have no unresolved candidate under the current detector. This is not a guarantee of independent source footage and is not a final benchmark split."
+}

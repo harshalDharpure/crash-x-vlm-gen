@@ -1,0 +1,61 @@
+{
+  "status": "provisional_source_grouped_split",
+  "source_split_dir": "crashx/data/splits",
+  "manifest": "results/audits/split_leakage/confirmed_source_groups.json",
+  "counts": {
+    "train": 1202,
+    "val": 147,
+    "test": 149
+  },
+  "group_assignments": [
+    {
+      "group_id": "source_001117_000301",
+      "members": [
+        "001117",
+        "000301"
+      ],
+      "original_splits": {
+        "train": 1,
+        "val": 1
+      },
+      "assigned_split": "train"
+    },
+    {
+      "group_id": "source_001397_000254",
+      "members": [
+        "001397",
+        "000254"
+      ],
+      "original_splits": {
+        "train": 1,
+        "test": 1
+      },
+      "assigned_split": "train"
+    },
+    {
+      "group_id": "source_001437_000243",
+      "members": [
+        "001437",
+        "000243"
+      ],
+      "original_splits": {
+        "train": 1,
+        "val": 1
+      },
+      "assigned_split": "train"
+    },
+    {
+      "group_id": "source_001445_000246",
+      "members": [
+        "001445",
+        "000246"
+      ],
+      "original_splits": {
+        "train": 1,
+        "val": 1
+      },
+      "assigned_split": "train"
+    }
+  ],
+  "warning": "Only confirmed reviewed groups are constrained. Do not call this split leak-free until the candidate review protocol is complete."
+}

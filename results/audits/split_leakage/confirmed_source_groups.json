@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "partial_manual_review_not_a_clean_split_definition",
+  "groups": [
+    {
+      "group_id": "source_001117_000301",
+      "members": ["001117", "000301"],
+      "original_splits": ["train", "val"],
+      "decision": "confirmed_overlap",
+      "evidence": "Manual frame review: same camera, roadway and near-successive timestamp overlay."
+    },
+    {
+      "group_id": "source_001397_000254",
+      "members": ["001397", "000254"],
+      "original_splits": ["train", "test"],
+      "decision": "confirmed_overlap",
+      "evidence": "Manual frame review: same camera, street, car and successive timestamp overlays 12:29:34/12:29:35."
+    },
+    {
+      "group_id": "source_001437_000243",
+      "members": ["001437", "000243"],
+      "original_splits": ["train", "val"],
+      "decision": "confirmed_overlap",
+      "evidence": "Manual frame review: same urban intersection and timestamp overlay 03/07/2014 19:26:43."
+    },
+    {
+      "group_id": "source_001445_000246",
+      "members": ["001445", "000246"],
+      "original_splits": ["train", "val"],
+      "decision": "confirmed_overlap",
+      "evidence": "Manual frame review: same intersection and timestamp overlay 03/07/2014 10:35:02."
+    }
+  ],
+  "rejected_pairs": [
+    ["000242", "000657"],
+    ["000956", "000657"]
+  ],
+  "warning": "This manifest covers confirmed pairs only. It must not be used to claim that a re-split is free of all source-footage overlap."
+}

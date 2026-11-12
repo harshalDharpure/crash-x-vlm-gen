@@ -1,0 +1,48 @@
+{
+  "intervals": {
+    "tIoU": {
+      "mean": 0.44555555555555554,
+      "ci_low": 0.3822222222222222,
+      "ci_high": 0.5061111111111111,
+      "std": 0.03161860838645965,
+      "n_bootstrap": 2000
+    },
+    "ArgusCost-H": {
+      "mean": 0.2053333333333333,
+      "ci_low": 0.184,
+      "ci_high": 0.22799999999999998,
+      "std": 0.011408752897081546,
+      "n_bootstrap": 2000
+    },
+    "ArgusCost-O": {
+      "mean": 0.08444444444444445,
+      "ci_low": 0.06777777777777778,
+      "ci_high": 0.10111111111111112,
+      "std": 0.00862635925950653,
+      "n_bootstrap": 2000
+    },
+    "Severity-Acc": {
+      "mean": 0.4266666666666667,
+      "ci_low": 0.3466666666666667,
+      "ci_high": 0.5066666666666667,
+      "std": 0.04037969442953008,
+      "n_bootstrap": 2000
+    },
+    "BLEU-4": {
+      "mean": 0.11658221125064124,
+      "ci_low": 0.10875022979134653,
+      "ci_high": 0.12417537076169906,
+      "std": 0.003969350151119182,
+      "n_bootstrap": 2000
+    },
+    "ROUGE-L": {
+      "mean": 0.34675173700650624,
+      "ci_low": 0.33833850854369435,
+      "ci_high": 0.3553030694630639,
+      "std": 0.0043696222123459985,
+      "n_bootstrap": 2000
+    }
+  },
+  "paired_comparisons": {},
+  "note": "BLEU/ROUGE here are means of per-video scores, not corpus metrics; p-values are unadjusted exploratory tests."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "CrashX matched baseline v1",
+  "purpose": "Fair test-only inference comparison; no configuration choice may use test metrics.",
+  "split": "crashx/data/splits/test.jsonl",
+  "backbone": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "quantization": {"load_in_4bit": true, "quant_type": "nf4", "double_quant": true, "compute_dtype": "bfloat16"},
+  "input": {"num_frames": 16, "max_frame_side": 336, "prompt_source": "crashx.prompts.USER_PROMPT"},
+  "generation": {"do_sample": false, "max_new_tokens": 512, "seed": 42},
+  "conditions": [
+    {"name": "zero_shot_qwen", "adapter": null, "decoder": "greedy"},
+    {"name": "crashlogic_greedy", "adapter": "outputs/crashlogic_7b_lora", "decoder": "greedy"},
+    {"name": "crashlogic_tcd_a0.5", "adapter": "outputs/crashlogic_7b_lora", "decoder": "temporal_contrastive", "alpha": 0.5, "negative": "reverse"}
+  ],
+  "outputs": "results/matched_baseline_v1/",
+  "selection_rule": "All settings are fixed before test inference. Validation may only be used for future configuration selection."
+}

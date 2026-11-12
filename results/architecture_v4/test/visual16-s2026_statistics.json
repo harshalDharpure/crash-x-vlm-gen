@@ -1,0 +1,343 @@
+{
+  "intervals": {
+    "tIoU": {
+      "mean": 0.3872222222222222,
+      "ci_low": 0.3244444444444445,
+      "ci_high": 0.45,
+      "std": 0.032287564005805895,
+      "n_bootstrap": 2000
+    },
+    "ArgusCost-H": {
+      "mean": 0.2173333333333333,
+      "ci_low": 0.19599999999999998,
+      "ci_high": 0.23866666666666664,
+      "std": 0.011138940683725514,
+      "n_bootstrap": 2000
+    },
+    "ArgusCost-O": {
+      "mean": 0.10222222222222223,
+      "ci_low": 0.08333333333333333,
+      "ci_high": 0.1211111111111111,
+      "std": 0.009692404417638674,
+      "n_bootstrap": 2000
+    },
+    "Severity-Acc": {
+      "mean": 0.46,
+      "ci_low": 0.38666666666666666,
+      "ci_high": 0.54,
+      "std": 0.03935379114872896,
+      "n_bootstrap": 2000
+    },
+    "BLEU-4": {
+      "mean": 0.12273776850968952,
+      "ci_low": 0.11428051300405967,
+      "ci_high": 0.13148192823245677,
+      "std": 0.0043766275096923145,
+      "n_bootstrap": 2000
+    },
+    "ROUGE-L": {
+      "mean": 0.35121462205840526,
+      "ci_low": 0.34092403519974807,
+      "ci_high": 0.36136463851451367,
+      "std": 0.0053791934621341365,
+      "n_bootstrap": 2000
+    }
+  },
+  "paired_comparisons": {
+    "CrashLogic-7B-Greedy": {
+      "tIoU": {
+        "delta_ci": {
+          "mean": 0.014444444444444444,
+          "ci_low": -0.06222222222222223,
+          "ci_high": 0.09333333333333334,
+          "std": 0.03995119539613611,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 422.5,
+          "p_value": 0.7008749402870211,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ArgusCost-H": {
+        "delta_ci": {
+          "mean": -0.0053333333333333306,
+          "ci_low": -0.028,
+          "ci_high": 0.016033333333333157,
+          "std": 0.011497184022378891,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 760.0,
+          "p_value": 0.7347401829847067,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ArgusCost-O": {
+        "delta_ci": {
+          "mean": -0.0044444444444444444,
+          "ci_low": -0.021111111111111112,
+          "ci_high": 0.01222222222222222,
+          "std": 0.008501787103345818,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 518.5,
+          "p_value": 0.5906612471908714,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "Severity-Acc": {
+        "delta_ci": {
+          "mean": 0.0,
+          "ci_low": -0.08666666666666667,
+          "ci_high": 0.08,
+          "std": 0.04241915591909968,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 410.0,
+          "p_value": 1.0,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "BLEU-4": {
+        "delta_ci": {
+          "mean": -0.0001515071737876687,
+          "ci_low": -0.008800804908843957,
+          "ci_high": 0.008161795499351563,
+          "std": 0.004337413865824493,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 5454.0,
+          "p_value": 0.6956524155143196,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ROUGE-L": {
+        "delta_ci": {
+          "mean": 0.015604716924686747,
+          "ci_low": 0.0063920263005660255,
+          "ci_high": 0.02497175440147083,
+          "std": 0.0047570817032296375,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 3858.0,
+          "p_value": 0.000710036432342052,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      }
+    },
+    "CrashLogic-7B-SEASON": {
+      "tIoU": {
+        "delta_ci": {
+          "mean": 0.012222222222222226,
+          "ci_low": -0.06669444444444439,
+          "ci_high": 0.09113888888888874,
+          "std": 0.04008024734020303,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 540.0,
+          "p_value": 0.7888649938892667,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ArgusCost-H": {
+        "delta_ci": {
+          "mean": -0.01,
+          "ci_low": -0.03666666666666667,
+          "ci_high": 0.015349999999999914,
+          "std": 0.013386724767470198,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 1133.0,
+          "p_value": 0.4914158482494012,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ArgusCost-O": {
+        "delta_ci": {
+          "mean": -0.01,
+          "ci_low": -0.02666666666666667,
+          "ci_high": 0.006666666666666665,
+          "std": 0.008614492454399944,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 479.0,
+          "p_value": 0.2218407608514652,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "Severity-Acc": {
+        "delta_ci": {
+          "mean": -0.006666666666666667,
+          "ci_low": -0.09333333333333334,
+          "ci_high": 0.08,
+          "std": 0.044358372753442316,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 506.0,
+          "p_value": 0.8814974521910136,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "BLEU-4": {
+        "delta_ci": {
+          "mean": 0.001878679099169754,
+          "ci_low": -0.008498102445164217,
+          "ci_high": 0.011045043692176433,
+          "std": 0.005078125710237427,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 5069.0,
+          "p_value": 0.26547308916142665,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ROUGE-L": {
+        "delta_ci": {
+          "mean": 0.013047628018841767,
+          "ci_low": 0.0027299409632609776,
+          "ci_high": 0.022561098894998147,
+          "std": 0.0050028346932754295,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 3839.0,
+          "p_value": 0.0009211116180162592,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      }
+    },
+    "ZeroShot-Qwen2.5-VL-7B": {
+      "tIoU": {
+        "delta_ci": {
+          "mean": 0.37475790034921763,
+          "ci_low": 0.3117642817115066,
+          "ci_high": 0.43997644265393715,
+          "std": 0.032165936997352165,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 57.0,
+          "p_value": 1.1903678673975584e-15,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      },
+      "ArgusCost-H": {
+        "delta_ci": {
+          "mean": -0.0101111111111111,
+          "ci_low": -0.05500555555555553,
+          "ci_high": 0.03500277777777778,
+          "std": 0.02297052460736703,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 4371.0,
+          "p_value": 0.8488621892457293,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": false
+        }
+      },
+      "ArgusCost-O": {
+        "delta_ci": {
+          "mean": -0.36,
+          "ci_low": -0.38888888888888884,
+          "ci_high": -0.33111111111111113,
+          "std": 0.014620208405736235,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 0.0,
+          "p_value": 1.5146436078425818e-25,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      },
+      "Severity-Acc": {
+        "delta_ci": {
+          "mean": 0.38,
+          "ci_low": 0.29333333333333333,
+          "ci_high": 0.4666666666666667,
+          "std": 0.043021147771247985,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 132.0,
+          "p_value": 1.5495617219471077e-12,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      },
+      "BLEU-4": {
+        "delta_ci": {
+          "mean": 0.107502009357557,
+          "ci_low": 0.0989951020589663,
+          "ci_high": 0.11600650451032682,
+          "std": 0.004426331682012534,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 0.0,
+          "p_value": 2.2996057560669792e-26,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      },
+      "ROUGE-L": {
+        "delta_ci": {
+          "mean": 0.19124433235944185,
+          "ci_low": 0.1772922471683115,
+          "ci_high": 0.2044166013002464,
+          "std": 0.006979637761130101,
+          "n_bootstrap": 2000
+        },
+        "wilcoxon": {
+          "statistic": 0.0,
+          "p_value": 2.2996057560669792e-26,
+          "test": "wilcoxon",
+          "n_pairs": 150,
+          "significant": true
+        }
+      }
+    }
+  },
+  "note": "BLEU/ROUGE here are means of per-video scores, not corpus metrics; p-values are unadjusted exploratory tests."
+}

@@ -38,6 +38,20 @@ class PairedTestResult:
         return f"{self.p_value:.3f}"
 
 
+@dataclass
+class PairedBootstrapResult:
+    """Video-level paired bootstrap estimate for a method contrast."""
+
+    candidate_mean: float
+    reference_mean: float
+    delta: float
+    ci_low: float
+    ci_high: float
+    std: float
+    n_videos: int
+    n_bootstrap: int
+
+
 def bootstrap_ci(
     values: Sequence[float],
     n_bootstrap: int = 1000,
@@ -95,6 +109,44 @@ def bootstrap_metric_on_outputs(
         ci_low=float(lo),
         ci_high=float(hi),
         std=float(np.std(boots)),
+        n_bootstrap=n_bootstrap,
+    )
+
+
+def paired_video_bootstrap(
+    candidate: Sequence[float],
+    reference: Sequence[float],
+    n_bootstrap: int = 2000,
+    ci: float = 0.95,
+    seed: int = 42,
+) -> PairedBootstrapResult:
+    """Bootstrap the mean difference while preserving aligned video pairs.
+
+    The unit of resampling is a video, not an individual claim or token.  This
+    is appropriate for one prediction from each method per test video and gives
+    a confidence interval for ``candidate - reference``.
+    """
+    a = np.asarray(candidate, dtype=np.float64)
+    b = np.asarray(reference, dtype=np.float64)
+    if a.shape != b.shape:
+        raise ValueError("Paired arrays must have the same shape")
+    if a.ndim != 1 or a.size == 0:
+        raise ValueError("Paired bootstrap requires one or more aligned video scores")
+    rng = np.random.default_rng(seed)
+    deltas = np.empty(n_bootstrap, dtype=np.float64)
+    for i in range(n_bootstrap):
+        indices = rng.integers(0, a.size, size=a.size)
+        deltas[i] = float(np.mean(a[indices] - b[indices]))
+    tail = (1.0 - ci) / 2.0
+    lo, hi = np.quantile(deltas, [tail, 1.0 - tail])
+    return PairedBootstrapResult(
+        candidate_mean=float(np.mean(a)),
+        reference_mean=float(np.mean(b)),
+        delta=float(np.mean(a - b)),
+        ci_low=float(lo),
+        ci_high=float(hi),
+        std=float(np.std(deltas)),
+        n_videos=int(a.size),
         n_bootstrap=n_bootstrap,
     )
 
